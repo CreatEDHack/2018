@@ -20,13 +20,18 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle:       "MLHacks"
+  twitter_handle:       "CreatEdHack"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:                "Example Hacks | 5/6 August 2016"
   description:          "This is a sample hackathon website that you can use by following instructions on GitHub."
   image:                "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+
+organiser:
+  name:                 "EaRS"
+  full_name:            "The University of Edinburgh Embedded and Robotics Society"
+  site:                 "http://ears-edi.com/"
 
 # Event information.
 event:
