@@ -30,13 +30,14 @@ seo:
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
+  name:        "CreatEd 2018"
+  description: "48-hour harware hackathon in Edinburgh"
+  date:        "5-7 April 2018"
+  location:    "Edinburgh, UK"
+  logosrc:       "images/logo.png"
 
   trust_badge:
-    year:   "2017"  # season year
+    year:   "2018"  # season year
     region: "eu"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 

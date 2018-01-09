@@ -4,12 +4,11 @@
 */
 
 /* Open Sans Google Font */
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
-
 /* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
@@ -22,11 +21,11 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #B3B6CF;
 }
 
 section {
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 /*
@@ -44,34 +43,43 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background-color: #F5699C;
+  background-color: #192630;
   min-height: 110vh;
+  color: #fff;
 }
 
 .hero img {
-  max-width: 400px;
+  max-width: 200px;
 }
 
+/*
 .hero hr {
-  border-top: 15px solid #0F2C34;
+  border-top: 15px solid #B3B6CF;
   margin: 0;
   position: relative;
   top: -14px;
-}
+} */
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 28vh;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+}
+
+.hero div.black-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 15px solid #B3B6CF;
 }
 
 .hero .wrapper h1 {
-  background: #fff;
-  background: rgba(255, 255, 255, .3);
-  display: inline-block;
+  color: #fff;
+  /* background: rgba(42, 13, 13, 0.83); */
+  display: block;
   font-size: 60px;
   font-weight: 800;
   letter-spacing: -2px;
@@ -89,13 +97,14 @@ section {
   padding-bottom: 35px;
 }
 
-.hero .buttons {
+.buttons {
   margin: 40px 0;
+  text-align: center;
 }
 
-.hero .buttons a {
+.buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
+  border: 10px solid #B3B6CF;
   border-radius: 40px;
   color: #0F2C34;
   display: inline;
@@ -107,18 +116,17 @@ section {
   text-transform: uppercase;
 }
 
-.hero .buttons a:hover,
-.hero .buttons a:focus {
-  background-color: #0F2C34;
+.buttons a:hover, .buttons a:focus {
+  background-color: #B3B6CF;
   color: #fff;
   transition: all 0.2s ease;
 }
 
-.hero .buttons a:not(:last-child) {
+.buttons a:not(:last-child) {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -217,7 +225,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #B3B6CF;
   color: #fff;
   padding: 30px 0;
 }
@@ -246,11 +254,9 @@ section {
     font-size: 20px;
     margin: 5px;
   }
-
   .hero img {
     width: 250px;
   }
-
   .hero hr {
     border-top-width: 8px;
     top: -8px;
