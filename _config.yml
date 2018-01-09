@@ -10,6 +10,8 @@ baseurl:                ""
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
 url:                    "https://createdhack.github.io/"
 
+
+full:                   false
 # The ability to use custom themes.
 style:
   theme:                "original"

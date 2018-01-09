@@ -132,17 +132,24 @@ section {
 
 .about {
   border-width: 15px 0;
-  background-color: #fff;
-  padding: 130px 0;
+  padding-top: 10vh;
   position: relative;
 }
 
+section.about {
+  background-color: #fff;
+  padding: 130px 0;
+}
+
 .about p {
-  color: #0F2C34;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
+}
+
+section.about p {
+  color: #0F2C34;
 }
 
 .about p span {

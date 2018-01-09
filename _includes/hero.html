@@ -4,13 +4,22 @@
     <div class="black-bg">
       <h1 rel="title">{{ site.event.name }}</h1>
       <h2 rel="description">{{ site.event.description }}</h2>
+      {% if site.date_set %}
       <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+      {% endif %}
     </div>
-    <!-- <hr> -->
   </div>
+  {% if site.full %}
   <div class="buttons">
     {% for link in site.event.hero.links %} {% if link.href %}
     <a href="{{ link.href }}">{{ link.text }}</a> {% elsif link.my_mlh %}
     <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a> {% endif %} {% endfor %}
   </div>
+  {% else %}
+  <div class="container about">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+      {{ site.event.about.description | markdownify }}
+    </div>
+  </div>
+  {% endif %}
 </section>
