@@ -28,16 +28,16 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    rainbow (2.1.0)
+    rake (12.3.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-    scss-lint (0.38.0)
-      rainbow (~> 2.0)
-      sass (~> 3.4.1)
+    scss_lint (0.55.0)
+      rake (>= 0.9, < 13)
+      sass (~> 3.4.20)
 
 PLATFORMS
   ruby
@@ -46,10 +46,10 @@ DEPENDENCIES
   jekyll
   jekyll-watch
   kramdown
-  scss-lint
+  scss_lint
 
 RUBY VERSION
-   ruby 2.2.4p230
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.16.1
