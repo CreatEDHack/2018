@@ -27,7 +27,7 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:                "CreatEd | 5-7 April 2018"
-  description:          "48-hour hardware hackathon in Edinburgh"
+  description:          "24-hour hardware hackathon in Edinburgh"
   image:                "https://createdhack.github.io/images/logo.png"
 
 organiser:
@@ -38,7 +38,7 @@ organiser:
 # Event information.
 event:
   name:                 "CreatEd 2018"
-  description:          "48-hour hardware hackathon in Edinburgh"
+  description:          "24-hour hardware hackathon in Edinburgh"
   date_set:             false
   date:                 "5-7 April 2018"
   location:             "Edinburgh, UK"
@@ -60,7 +60,7 @@ event:
 
   about:
     description:        >
-      CreatEd is a 48 hour hardware hackathon coming to Edinburgh this April.{::nomarkdown}<br />{:/}
+      CreatEd is a 24 hour hardware hackathon coming to Edinburgh this April.{::nomarkdown}<br />{:/}
       It'll bring together students for a fun weekend of invention, hacking, and learning.{::nomarkdown}<br />{:/}
       Brought to you [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/).
       {::nomarkdown}<br />{:/}{::nomarkdown}<br />{:/}
