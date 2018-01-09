@@ -3,10 +3,8 @@
     <img class="logo" src="{{ site.event.logosrc }}" />
     <div class="black-bg">
       <h1 rel="title">{{ site.event.name }}</h1>
-      <h2 rel="description">{{ site.event.description }}</h2>
-      {% if site.date_set %}
-      <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
-      {% endif %}
+      <h2 rel="description">{{ site.event.description }}</h2> {% if site.date_set %}
+      <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3> {% endif %}
     </div>
   </div>
   {% if site.full %}
@@ -21,5 +19,26 @@
       {{ site.event.about.description | markdownify }}
     </div>
   </div>
+  <div class="buttons">
+    <a href="#signupModal" data-toggle="modal">Sign-up</a>
+  </div>
+  <div id="signupModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Mailing List Sign-up</h4>
+        </div>
+        <div class="modal-body">
+          <div id="formio"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function() {
+      Formio.createForm(document.getElementById('formio'), 'https://qltqlotapygjtil.form.io/contact');
+    };
+  </script>
   {% endif %}
 </section>
