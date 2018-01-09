@@ -60,7 +60,12 @@ event:
 
   about:
     description:        >
-      CreatEd is a 48 hour hardware hackathon run by [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/)
+      CreatEd is a 48 hour hardware hackathon coming to Edinburgh this April.{::nomarkdown}<br />{:/}
+      It'll bring together students for a fun weekend of invention, hacking, and learning.{::nomarkdown}<br />{:/}
+      Brought to you [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/).
+      {::nomarkdown}<br />{:/}{::nomarkdown}<br />{:/}
+      Interested?{::nomarkdown}<br />{:/}
+      Sign-up to our mailing list to get updates when further details are released:
 
   # Info Sections
   info:

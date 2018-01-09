@@ -66,7 +66,7 @@ section {
 } */
 
 .hero .wrapper {
-  padding-top: 28vh;
+  padding-top: 16vh;
   background-image: url('../images/bg-reduced.png');
   background-size: cover;
 }
@@ -126,13 +126,22 @@ section {
   margin-right: 10px;
 }
 
+.hero .modal-content {
+  background-color: #0c1318;
+}
+
+.hero .modal-header .close {
+  color: #fff;
+  opacity: 1;
+}
+
 /*
  * About Section
  */
 
 .about {
   border-width: 15px 0;
-  padding-top: 10vh;
+  padding-top: 2vh;
   position: relative;
 }
 
