@@ -41,7 +41,7 @@ event:
   name_short:           "CreatED"
   description:          "24-hour hardware hackathon"
   date:                 "7th & 8th of April"
-  location:             "Edinburgh, UK"
+  location:             "Appleton Tower, The University of Edinburgh"
   logosrc:              "images/logo.png"
 
   trust_badge:
