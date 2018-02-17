@@ -23,7 +23,16 @@ layout: default
     </div>
     <div class="items row">
       {% for sponsor in site.event.sponsors.medium %}
-      <div class="col-xs-4 text-center">
+      <div class="col-xs-6 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.small %}
+      <div class="col-xs-4 col-xs-offset-4 text-center">
         <div class="item">
           <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
         </div>
