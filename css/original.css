@@ -58,7 +58,25 @@ section {
 .hero .wrapper {
   padding-top: 16vh;
   background-image: url("../images/bg-reduced.png");
-  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+@media only screen and (max-width: 900px) {
+  .hero .wrapper {
+    background-size: 200%;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .hero .wrapper {
+    background-size: 250%;
+    background-position-x: 60%;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .hero .wrapper {
+    background-size: 370%;
+    background-position-x: 70%;
+  }
 }
 
 .hero div.black-bg {
