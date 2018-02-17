@@ -22,7 +22,7 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle:       "CreatEdHack"
+  twitter_handle:       "CreatEDHack"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
@@ -38,10 +38,10 @@ organiser:
 # Event information.
 event:
   name:                 "CreatED 2018"
-  description:          "24-hour hardware hackathon in Edinburgh"
-  date_set:             false
-  date:                 "5-7 April 2018"
-  location:             "Edinburgh, UK"
+  name_short:           "CreatED"
+  description:          "24-hour hardware hackathon"
+  date:                 "7th & 8th of April"
+  location:             "Appleton Tower, The University of Edinburgh"
   logosrc:              "images/logo.png"
 
   trust_badge:
@@ -53,21 +53,35 @@ event:
     links:
       - text:           "Apply"
         my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+          client_id:    "87fceece377ceb70f339e440591e889e918c1d421bd986ff7b58ca3ea9ee1d30"
+          redirect_uri: "https://createdhack.github.io/success"
       - text:           "Sponsor"
-        href:           "mailto:sponsorship@website.com"
+        href:           "mailto:sponsorship@ears-edi.com"
 
   about:
     description:        >
       CreatED is a 24 hour hardware hackathon coming to Edinburgh this April.{::nomarkdown}<br />{:/}
       It'll bring together students for a fun weekend of invention, hacking, and learning.{::nomarkdown}<br />{:/}
-      Brought to you [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/).
-      {::nomarkdown}<br />{:/}{::nomarkdown}<br />{:/}
-      Interested?{::nomarkdown}<br />{:/}
-      Sign-up to our mailing list to get updates when further details are released:
+      Brought to you by [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/).
 
   # Info Sections
+  sponsors:
+    big:
+      - logo: "images/accenture_logo.png"
+        name: "Accenture"
+        url: "http://www.accenture.com"
+    medium:
+      - logo: "images/InformaticsUni_transparent.gif"
+        name: "University of Edinburgh School of Informatics"
+        url: "http://www.ed.ac.uk/informatics"
+      - logo: "images/mokanix_logo_small.png"
+        name: "Mokanix"
+        url: "http://mokanix.io"
+    small:
+      - logo: "images/xilinx_logo.png"
+        name: "Xilinx"
+        url: "http://www.xilinx.com"
+
   info:
     sections:
       - image:          "images/image1.png"
@@ -98,7 +112,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question:         "Where is the event?"
       answer:           >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at [Appleton Tower, The University of Edinburgh](https://www.google.co.uk/maps/place/Appleton+Tower,+The+University+of+Edinburgh/@55.9443771,-3.1891978,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c78385c7685d:0x6f9d3da4d39209ee!8m2!3d55.9443771!4d-3.1870091?dcr=0).
     - question:         "What is Major League Hacking?"
       answer:           >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -110,6 +124,8 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message:            >
+      Thanks for signing up!
+      {::nomarkdown}<br />{:/}
       You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
