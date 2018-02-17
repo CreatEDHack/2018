@@ -81,9 +81,10 @@ section {
   /* background: rgba(42, 13, 13, 0.83); */
   display: block;
   font-size: 60px;
-  font-weight: 800;
+  /* font-weight: 800; */
   letter-spacing: -2px;
   padding: 10px 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero .wrapper h2 {
