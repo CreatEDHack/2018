@@ -2,19 +2,15 @@
 * RegistrationHacks Style File
 * http://bit.ly/1ywfhq7
 */
-
 /* Open Sans Google Font */
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
 /* Montserrat Google Font */
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
  * Primary Pink: #FF7FA8;
  */
-
 * {
   font-family: 'Open Sans';
   font-weight: 600;
@@ -27,11 +23,9 @@ body {
 section {
   overflow-x: hidden;
 }
-
 /*
  * Trust Badge
  */
-
 #mlh-trust-badge {
   display: block;
   max-width: 100px;
@@ -42,11 +36,9 @@ section {
   width: 10%;
   z-index: 10000;
 }
-
 /*
  * Hero Section
  */
-
 .hero {
   background-color: #192630;
   min-height: 110vh;
@@ -56,7 +48,6 @@ section {
 .hero img {
   max-width: 200px;
 }
-
 /*
 .hero hr {
   border-top: 15px solid #B3B6CF;
@@ -64,10 +55,9 @@ section {
   position: relative;
   top: -14px;
 } */
-
 .hero .wrapper {
   padding-top: 16vh;
-  background-image: url('../images/bg-reduced.png');
+  background-image: url("../images/bg-reduced.png");
   background-size: cover;
 }
 
@@ -103,7 +93,8 @@ section {
   border-color: transparent !important;
 }
 
-.navbar-nav > li > a, .navbar-header a {
+.navbar-header a,
+.navbar-nav > li > a {
   color: #fafafa !important;
 }
 
@@ -126,7 +117,8 @@ section {
   text-transform: uppercase;
 }
 
-.buttons a:hover, .buttons a:focus {
+.buttons a:focus,
+.buttons a:hover {
   background-color: #B3B6CF;
   color: #fff;
   transition: all 0.2s ease;
@@ -144,11 +136,9 @@ section {
   color: #fff;
   opacity: 1;
 }
-
 /*
  * About Section
  */
-
 .about {
   border-width: 15px 0;
   padding-top: 2vh;
@@ -175,11 +165,9 @@ section.about p {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 /*
  * Info Section
  */
-
 .info {
   background-color: #fff;
   margin-top: 15px;
@@ -198,18 +186,16 @@ section.about p {
   margin: 20px 0;
 }
 
-/* .info .item img {
-  max-width: 220px;
-} */
+.info .item img {
+  width: 100%;
+}
 
 .info .item p {
   font-size: 20px;
 }
-
 /*
  * FAQ Section
  */
-
 .faq {
   background-color: #fff;
   margin-top: 15px;
@@ -245,11 +231,9 @@ section.about p {
   margin-top: 40px;
   width: 300px;
 }
-
 /*
  * Footer Section
  */
-
 .footer {
   background-color: #B3B6CF;
   color: #fff;
@@ -272,7 +256,6 @@ section.about p {
 .footer h3 a {
   color: #fff;
 }
-
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
@@ -280,9 +263,11 @@ section.about p {
     font-size: 20px;
     margin: 5px;
   }
+
   .hero img {
     width: 250px;
   }
+
   .hero hr {
     border-top-width: 8px;
     top: -8px;
