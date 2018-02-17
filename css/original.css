@@ -174,13 +174,18 @@ section {
   margin-right: 10px;
 }
 
-.hero .modal-content {
+/* .hero .modal-content {
   background-color: #0c1318;
 }
 
 .hero .modal-header .close {
   color: #fff;
   opacity: 1;
+} */
+
+
+.modal-title {
+  color: black;
 }
 /*
  * About Section
