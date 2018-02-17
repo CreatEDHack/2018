@@ -89,13 +89,31 @@ section {
 }
 
 .navbar-default {
-  background-color: transparent !important;
-  border-color: transparent !important;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.navbar-header a,
-.navbar-nav > li > a {
-  color: #fafafa !important;
+.navbar-brand {
+  font-weight: 400;
+}
+
+#bootstrap-overrides .navbar-default .navbar-brand,
+#bootstrap-overrides .navbar-header a,
+#bootstrap-overrides .navbar-nav > li > a {
+  color: #fafafa;
+}
+
+#bootstrap-overrides .navbar-nav > li > a:hover {
+  color: #dadada;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fafafa;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #5a5a5a;
 }
 
 .buttons {

@@ -14,7 +14,7 @@
     <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a> {% endif %} {% endfor %}
   </div>
   {% else %}
-  <div class="container about">
+  <div id="startchange" class="container about">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
       {{ site.event.about.description | markdownify }}
     </div>
