@@ -127,6 +127,8 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message:            >
+      Thanks for signing up!
+      {::nomarkdown}<br />{:/}
       You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
