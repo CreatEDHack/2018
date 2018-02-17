@@ -16,6 +16,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-maps (2.1.2)
+      jekyll (~> 3.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -44,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-maps
   jekyll-watch
   kramdown
   scss_lint
