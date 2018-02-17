@@ -28,12 +28,12 @@ section {
  */
 #mlh-trust-badge {
   display: block;
-  max-width: 100px;
+  max-width: 150px;
   min-width: 60px;
   position: fixed;
-  right: 50px;
-  top: 0;
-  width: 10%;
+  right: 200px;
+  top: -10px;
+  width: 18%;
   z-index: 10000;
 }
 /*
@@ -114,6 +114,16 @@ section {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: #5a5a5a;
+}
+
+#localhost-logo {
+  margin: 0;
+  padding: 0;
+}
+
+#localhost-logo > img {
+  margin: 10px;
+  height: 30px;
 }
 
 .buttons {
