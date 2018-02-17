@@ -1,34 +1,9 @@
 ---
 layout: default
 ---
-
 {% include hero.html %}
 
-<section class="about">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
-    </div>
-  </div>
-</section>
-
-<section class="info">
-  <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="faq">
+<section id="faq" class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
     <div class="row">
@@ -36,11 +11,49 @@ layout: default
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
           <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
+          <hr> {{ item.answer | markdownify }}
         </div>
         {% endfor %}
       </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="sponsors" class="info">
+  <div class="container">
+    <div class="items row">
+      <div class="col-xs-12 text-center">
+        <h1>CreatED 2018 is sponsored by</h1>
+        <hr />
+      </div>
+    </div>
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.big %}
+      <div class="col-xs-10 col-xs-offset-1 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.medium %}
+      <div class="col-xs-6 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.small %}
+      <div class="col-xs-4 col-xs-offset-4 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
