@@ -97,6 +97,15 @@ section {
   padding-bottom: 35px;
 }
 
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.navbar-nav > li > a, .navbar-header a {
+  color: #fafafa !important;
+}
+
 .buttons {
   margin: 40px 0;
   text-align: center;

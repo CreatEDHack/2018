@@ -68,6 +68,16 @@ event:
       Sign-up to our mailing list to get updates when further details are released:
 
   # Info Sections
+  sponsors:
+    big:
+      - logo: "images/accenture_logo.png"
+        name: "Accenture"
+        url: "http://www.accenture.com"
+    medium:
+      - logo: "images/mokanix_logo_small.png"
+        name: "Mokanix"
+        url: "http://mokanix.io"
+
   info:
     sections:
       - image:          "images/image1.png"

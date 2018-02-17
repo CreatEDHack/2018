@@ -2,16 +2,38 @@
 layout: default
 ---
 {% include hero.html %}
-{% if site.full %}
-<section class="about">
+<!-- <section class="about">
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
       {{ site.event.about.description | markdownify }}
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="info">
+  <div class="container">
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.big %}
+      <div class="col-xs-12 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="items row">
+      {% for sponsor in site.event.sponsors.medium %}
+      <div class="col-xs-4 text-center">
+        <div class="item">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- <section class="info">
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -25,7 +47,7 @@ layout: default
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="faq">
   <div class="container">
@@ -42,4 +64,3 @@ layout: default
     </div>
   </div>
 </section>
-{% endif %}
