@@ -173,7 +173,6 @@ section {
 .buttons a:not(:last-child) {
   margin-right: 10px;
 }
-
 /* .hero .modal-content {
   background-color: #0c1318;
 }
@@ -182,8 +181,6 @@ section {
   color: #fff;
   opacity: 1;
 } */
-
-
 .modal-title {
   color: black;
 }
