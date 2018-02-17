@@ -38,9 +38,9 @@ organiser:
 # Event information.
 event:
   name:                 "CreatED 2018"
-  description:          "24-hour hardware hackathon in Edinburgh"
-  date_set:             false
-  date:                 "5-7 April 2018"
+  name_short:           "CreatED"
+  description:          "24-hour hardware hackathon"
+  date:                 "7-8 April 2018"
   location:             "Edinburgh, UK"
   logosrc:              "images/logo.png"
 
@@ -98,7 +98,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question:         "Where is the event?"
       answer:           >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at [Appleton Tower, The University of Edinburgh](https://www.google.co.uk/maps/place/Appleton+Tower,+The+University+of+Edinburgh/@55.9443771,-3.1891978,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c78385c7685d:0x6f9d3da4d39209ee!8m2!3d55.9443771!4d-3.1870091?dcr=0).
     - question:         "What is Major League Hacking?"
       answer:           >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
