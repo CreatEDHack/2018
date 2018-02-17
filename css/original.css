@@ -173,14 +173,16 @@ section {
 .buttons a:not(:last-child) {
   margin-right: 10px;
 }
-
-.hero .modal-content {
+/* .hero .modal-content {
   background-color: #0c1318;
 }
 
 .hero .modal-header .close {
   color: #fff;
   opacity: 1;
+} */
+.modal-title {
+  color: black;
 }
 /*
  * About Section
@@ -214,29 +216,34 @@ section.about p {
 /*
  * Info Section
  */
-.info {
+.info,
+.sponsors {
   background-color: #fff;
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
 }
 
-.info .item {
+.info .item,
+.sponsors .item {
   padding: 20px;
 }
 
-.info .item h1 {
+.info .item h1,
+.sponsors .item h1 {
   font-family: 'Montserrat';
   font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
 }
 
-.info .item img {
+.info .item img,
+.sponsors .item img {
   width: 100%;
 }
 
-.info .item p {
+.info .item p,
+.sponsors .item p {
   font-size: 20px;
 }
 /*
@@ -249,7 +256,9 @@ section.about p {
   position: relative;
 }
 
-.faq h1 {
+.faq h1,
+.sponsors h1,
+.venue h1 {
   font-family: 'Montserrat';
   font-weight: 700;
   margin: 30px 0;

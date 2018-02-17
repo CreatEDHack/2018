@@ -67,20 +67,20 @@ event:
   # Info Sections
   sponsors:
     big:
-      - logo: "images/accenture_logo.png"
-        name: "Accenture"
-        url: "http://www.accenture.com"
+      - logo:           "images/accenture_logo.png"
+        name:           "Accenture"
+        url:            "http://www.accenture.com"
     medium:
-      - logo: "images/InformaticsUni_transparent.gif"
-        name: "University of Edinburgh School of Informatics"
-        url: "http://www.ed.ac.uk/informatics"
-      - logo: "images/mokanix_logo_small.png"
-        name: "Mokanix"
-        url: "http://mokanix.io"
+      - logo:           "images/InformaticsUni_transparent.gif"
+        name:           "University of Edinburgh School of Informatics"
+        url:            "http://www.ed.ac.uk/informatics"
+      - logo:           "images/mokanix_logo_small.png"
+        name:           "Mokanix"
+        url:            "http://mokanix.io"
     small:
-      - logo: "images/xilinx_logo.png"
-        name: "Xilinx"
-        url: "http://www.xilinx.com"
+      - logo:           "images/xilinx_logo.png"
+        name:           "Xilinx"
+        url:            "http://www.xilinx.com"
 
   info:
     sections:
@@ -131,6 +131,11 @@ event:
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
+plugins_dir:
+  - jekyll-maps
+maps:
+  google:
+    api_key:            "AIzaSyCUTRf0vEHgV9n1MCHWzZ5ux4fqPvt9X3c"
 
 markdown:               kramdown
 exclude:
