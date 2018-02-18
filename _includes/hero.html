@@ -14,25 +14,30 @@
       {{ site.event.about.description | markdownify }}
     </div>
   </div>
-
-  <div class="buttons">
-    <a href="#signupModal" data-toggle="modal">Sign-up</a>
-
-    <div id="signupModal" class="modal fade">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Eventbrite Registration</h4>
-          </div>
-          <div class="modal-body">
-            <div id="eventbrite-widget-container-41607366754"></div>
-            <a id="mymlh-button" href="https://my.mlh.io/oauth/authorize?client_id={{ site.event.hero.my_mlh.client_id }}&amp;redirect_uri={{ site.hero.event.my_mlh.redirect_uri }}&amp;response_type=token">{{ site.event.hero.my_mlh.text }}</a>
-            <br /><br /><br />
+  <div id="signupModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Eventbrite Registration</h4>
+        </div>
+        <div class="modal-body">
+          <div id="eventbrite-widget-container-41607366754"></div>
+          <div class="hidden-until-eb-complete alert alert-info" roler="alert">
+            <p>Would you like to also register a MyMLH account?</p>
+            <p>
+              <a class="alert-link" id="mymlh-button" href="https://my.mlh.io/oauth/authorize?client_id={{ site.event.hero.my_mlh.client_id }}&amp;redirect_uri={{ site.event.hero.my_mlh.redirect_uri }}&amp;response_type=token">Yes</a> &nbsp;or&nbsp;
+              <a class="alert-link" id="mymlh-button" href="{{ '/success' | prepend: site.baseurl | prepend: site.url }}">No</a>
+            </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="buttons">
+    <a href="#signupModal" data-toggle="modal">Sign-up</a>
+
+
 
 
     <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
@@ -40,7 +45,9 @@
     <script type="text/javascript">
       var completeCallback = function() {
         console.log('Order complete!');
-        $('#mymlh-button').css({'display': 'block'});
+        $('.hidden-until-eb-complete').css({
+          'display': 'block'
+        });
       };
 
       window.EBWidgets.createWidget({
@@ -56,8 +63,7 @@
     </script>
 
     {% for link in site.event.hero.links %}
-    <a href="{{ link.href }}">{{ link.text }}</a>
-    {% endfor %}
+    <a href="{{ link.href }}">{{ link.text }}</a> {% endfor %}
 
   </div>
 </section>

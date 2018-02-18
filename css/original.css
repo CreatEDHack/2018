@@ -134,7 +134,7 @@ section {
   background-color: #5a5a5a;
 }
 
-#mymlh-button {
+.hidden-until-eb-complete {
   display: none;
 }
 
@@ -190,7 +190,7 @@ section {
   color: #fff;
   opacity: 1;
 } */
-.modal-title {
+.modal-title, .modal {
   color: black;
 }
 
