@@ -27,6 +27,8 @@
           </div>
           <div class="modal-body">
             <div id="eventbrite-widget-container-41607366754"></div>
+            <a id="mymlh-button" href="https://my.mlh.io/oauth/authorize?client_id={{ site.event.hero.my_mlh.client_id }}&amp;redirect_uri={{ site.hero.event.my_mlh.redirect_uri }}&amp;response_type=token">{{ site.event.hero.my_mlh.text }}</a>
+            <br /><br /><br />
           </div>
         </div>
       </div>
@@ -36,8 +38,9 @@
     <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
     <script type="text/javascript">
-      var exampleCallback = function() {
+      var completeCallback = function() {
         console.log('Order complete!');
+        $('#mymlh-button').css({'display': 'block'});
       };
 
       window.EBWidgets.createWidget({
@@ -47,16 +50,13 @@
         iframeContainerId: 'eventbrite-widget-container-41607366754',
 
         // Optional
-        iframeContainerHeight: 500, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback // Method called when an order has successfully completed
+        iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: completeCallback // Method called when an order has successfully completed
       });
     </script>
 
     {% for link in site.event.hero.links %}
-    {% if link.href %}
-    <a href="{{ link.href }}">{{ link.text }}</a> {% elsif link.my_mlh %}
-    <!-- <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a> -->
-    {% endif %}
+    <a href="{{ link.href }}">{{ link.text }}</a>
     {% endfor %}
 
   </div>

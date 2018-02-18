@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #B3B6CF;
+  background-color: #192630;
 }
 
 section {
@@ -134,6 +134,10 @@ section {
   background-color: #5a5a5a;
 }
 
+#mymlh-button {
+  display: none;
+}
+
 #localhost-logo {
   margin: 0;
   padding: 0;
@@ -142,6 +146,10 @@ section {
 #localhost-logo > img {
   margin: 10px;
   height: 30px;
+}
+
+.modal-content {
+  background-color: #f8f8fa;
 }
 
 .buttons {
@@ -184,6 +192,7 @@ section {
 .modal-title {
   color: black;
 }
+
 /*
  * About Section
  */
@@ -235,6 +244,10 @@ section.about p {
   font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
+}
+
+.venue {
+  color: #fff;
 }
 
 .info .item img,
