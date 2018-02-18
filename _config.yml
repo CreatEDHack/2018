@@ -50,11 +50,12 @@ event:
     color:              "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
+    my_mlh:
+      text: "Login to MyMLH"
+      client_id:    "87fceece377ceb70f339e440591e889e918c1d421bd986ff7b58ca3ea9ee1d30"
+      redirect_uri: "https://createdhack.github.io/success"
+
     links:
-      - text:           "Apply"
-        my_mlh:
-          client_id:    "87fceece377ceb70f339e440591e889e918c1d421bd986ff7b58ca3ea9ee1d30"
-          redirect_uri: "https://createdhack.github.io/success"
       - text:           "Sponsor"
         href:           "mailto:sponsorship@ears-edi.com"
 
