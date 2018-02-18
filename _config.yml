@@ -132,11 +132,6 @@ event:
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
-plugins:
-  - jekyll-maps
-maps:
-  google:
-    api_key:            "AIzaSyCUTRf0vEHgV9n1MCHWzZ5ux4fqPvt9X3c"
 
 markdown:               kramdown
 exclude:
