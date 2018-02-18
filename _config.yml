@@ -131,7 +131,7 @@ event:
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
-plugins_dir:
+plugins:
   - jekyll-maps
 maps:
   google:
