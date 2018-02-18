@@ -134,7 +134,7 @@ section {
   background-color: #5a5a5a;
 }
 
-#mymlh-button {
+.hidden-until-eb-complete {
   display: none;
 }
 
@@ -163,6 +163,7 @@ section {
   border-radius: 40px;
   color: #0F2C34;
   display: inline;
+  margin-top: 20px;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 700;
@@ -189,7 +190,7 @@ section {
   color: #fff;
   opacity: 1;
 } */
-.modal-title {
+.modal-title, .modal {
   color: black;
 }
 
