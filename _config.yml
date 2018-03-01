@@ -75,9 +75,9 @@ event:
       - logo:           "images/InformaticsUni_transparent.gif"
         name:           "University of Edinburgh School of Informatics"
         url:            "http://www.ed.ac.uk/informatics"
-      - logo:           "images/mokanix_logo_small.png"
-        name:           "Mokanix"
-        url:            "http://mokanix.io"
+      - logo:           "images/nordic_logo.png"
+        name:           "Nordic"
+        url:            "http://www.nordicsemi.com/"
     small:
       - logo:           "images/xilinx_logo.png"
         name:           "Xilinx"
