@@ -263,7 +263,7 @@ section.about p {
 /*
  * FAQ Section
  */
-.faq {
+.faq, .hardwarehack {
   background-color: #fff;
   margin-top: 15px;
   padding: 100px 0;
@@ -272,25 +272,29 @@ section.about p {
 
 .faq h1,
 .sponsors h1,
-.venue h1 {
+.venue h1,
+.hardwarehack h1 {
   font-family: 'Montserrat';
   font-weight: 700;
   margin: 30px 0;
 }
 
-.faq .question h2 {
+.faq .question h2,
+.hardwarehack .question h2 {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 24px;
 }
 
-.faq .question hr {
+.faq .question hr,
+.hardwarehack .question hr {
   border-top: 8px solid #0F2C34;
   margin: 20px 0;
   width: 80px;
 }
 
-.faq .question p {
+.faq .question p,
+.hardwarehack .question p {
   font-size: 18px;
   line-height: 1.5em;
 }
