@@ -22,7 +22,7 @@
           <h4 class="modal-title">Eventbrite Registration</h4>
         </div>
         <div class="modal-body">
-          <div id="eventbrite-widget-container-41607366754"></div>
+          <div id="eventbrite-widget-container-43719602508"></div>
           <div class="hidden-until-eb-complete alert alert-info" roler="alert">
             <p>Would you like to also register a MyMLH account?</p>
             <p>
@@ -37,28 +37,22 @@
   <div class="buttons">
     <a href="#signupModal" data-toggle="modal">Sign-up</a>
 
-
-
-
     <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
     <script type="text/javascript">
-      var completeCallback = function() {
+      var exampleCallback = function() {
         console.log('Order complete!');
-        $('.hidden-until-eb-complete').css({
-          'display': 'block'
-        });
       };
 
       window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '41607366754',
-        iframeContainerId: 'eventbrite-widget-container-41607366754',
+        eventId: '43719602508',
+        iframeContainerId: 'eventbrite-widget-container-43719602508',
 
         // Optional
         iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: completeCallback // Method called when an order has successfully completed
+        onOrderComplete: exampleCallback // Method called when an order has successfully completed
       });
     </script>
 
