@@ -38,7 +38,7 @@
 
   <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
-  {% if site.full %} {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %} {% endif %}
+  {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
 </body>
 
 </html>
