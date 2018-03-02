@@ -6,6 +6,13 @@
       <h2 rel="description">{{ site.event.description }}</h2>
       <h2 style="font-weight: 600;" rel="location"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>&nbsp;{{ site.event.date }}</h2>
       <h2 style="font-weight: 600;" rel="location"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>&nbsp;{{ site.event.location }}</h2>
+      <div class="social-icons">
+        {% for soc in site.event.social %}
+        <a href="{{ soc.link }}">
+          <img src="{{ soc.logo }}" alt="{{ soc.text }}">
+        </a>
+        {% endfor %}
+      </div>
       <br />
     </div>
   </div>
