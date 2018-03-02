@@ -87,6 +87,9 @@ event:
       - logo:           "images/xilinx_logo.png"
         name:           "Xilinx"
         url:            "http://www.xilinx.com"
+      - logo:           "images/codethink_logo.svg"
+        name:           "Codethink"
+        url:            "https://www.codethink.co.uk/"
 
   info:
     sections:
