@@ -229,7 +229,7 @@ section.about p {
 .info,
 .sponsors {
   background-color: #fff;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding: 100px 0;
   position: relative;
 }
@@ -265,7 +265,7 @@ section.about p {
  */
 .faq, .hardwarehack {
   background-color: #fff;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding: 100px 0;
   position: relative;
 }
