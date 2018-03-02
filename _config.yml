@@ -127,6 +127,44 @@ event:
       answer:           >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
+  schedule:
+    Saturday:
+      - text: "Start of registration"
+        time_text: "09:00"
+      - text: "Opening ceremony"
+        time_text: "10:30 - 12:00"
+      - text: "Start hacking"
+        time_text: "12:00"
+      - text: "First workshop"
+        time_text: "12:00 - 13:00"
+      - text: "Lunch"
+        time_text: "13:00 - 14:00"
+      - text: "Second workshop"
+        time_text: "14:00 - 15:00"
+      - text: "Third workshop"
+        time_text: "15:00 - 16:00"
+      - text: "Fourth workshop"
+        time_text: "16:00 - 17:00"
+      - text: "Fifth workshop"
+        time_text: "17:00 - 18:00"
+      - text: "Dinner"
+        time_text: "18:00 - 19:00"
+      - text: "Sixth workshop"
+        time_text: "20:00 - 21:00"
+    Sunday:
+      - text: "Midnight snack"
+        time_text: "00:00"
+      - text: "Breakfast"
+        time_text: "08:00 - 09:00"
+      - text: "Submissions due"
+        time_text: "12:00"
+      - text: "Lunch"
+        time_text: "12:00 - 13:00"
+      - text: "Demos"
+        time_text: "13:30 - 15:00"
+      - text: "Submissions due"
+        time_text: "15:30 - 16:30"
+
   # This is the message you'll receive once you've registered.
   register:
     message:            >
