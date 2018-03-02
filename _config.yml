@@ -67,18 +67,23 @@ event:
 
   # Info Sections
   sponsors:
-    big:
+    medium:
       - logo:           "images/accenture_logo.png"
         name:           "Accenture"
         url:            "http://www.accenture.com"
-    medium:
-      - logo:           "images/InformaticsUni_transparent.gif"
-        name:           "University of Edinburgh School of Informatics"
-        url:            "http://www.ed.ac.uk/informatics"
       - logo:           "images/nordic_logo.png"
         name:           "Nordic"
         url:            "http://www.nordicsemi.com/"
+      - logo:           "images/github_logo.png"
+        name:           "GitHub"
+        url:            "https://github.com"
+      - logo:           "images/queryclick_logo.svg"
+        name:           "QueryClick"
+        url:            "http://uk.queryclick.com/en/"
     small:
+      - logo:           "images/InformaticsUni_transparent.gif"
+        name:           "University of Edinburgh School of Informatics"
+        url:            "http://www.ed.ac.uk/informatics"
       - logo:           "images/xilinx_logo.png"
         name:           "Xilinx"
         url:            "http://www.xilinx.com"
