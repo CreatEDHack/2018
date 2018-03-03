@@ -49,6 +49,11 @@ event:
     region:          "eu"    # "na" or "eu"
     color:           "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
+  social:
+    - logo:             "images/fb_logo.png"
+      text:             "Facebook event"
+      link:             "https://www.facebook.com/events/328878124288949/"
+
   hero:
     my_mlh:
       text:          "Register with MyMlh, too"
@@ -67,26 +72,34 @@ event:
 
   # Info Sections
   sponsors:
-    medium:
-      - logo:        "images/accenture_logo.png"
-        name:        "Accenture"
-        url:         "http://www.accenture.com"
-      - logo:        "images/nordic_logo.png"
-        name:        "Nordic"
-        url:         "http://www.nordicsemi.com/"
-      - logo:        "images/github_logo.png"
-        name:        "GitHub"
-        url:         "https://github.com"
-      - logo:        "images/queryclick_logo.svg"
-        name:        "QueryClick"
-        url:         "http://uk.queryclick.com/en/"
-    small:
-      - logo:        "images/InformaticsUni_transparent.gif"
-        name:        "University of Edinburgh School of Informatics"
-        url:         "http://www.ed.ac.uk/informatics"
-      - logo:        "images/xilinx_logo.png"
-        name:        "Xilinx"
-        url:         "http://www.xilinx.com"
+    # tier1 is top, anycont is bottom (refer to sponsorship packages)
+    tier2:
+      - logo:           "images/accenture_logo.png"
+        name:           "Accenture"
+        url:            "http://www.accenture.com"
+      - logo:           "images/nordic_logo.png"
+        name:           "Nordic"
+        url:            "http://www.nordicsemi.com/"
+      - logo:           "images/github_logo.png"
+        name:           "GitHub"
+        url:            "https://github.com"
+      - logo:           "images/queryclick_logo.svg"
+        name:           "QueryClick"
+        url:            "http://uk.queryclick.com/en/"
+    tier3:
+      - logo:           "images/codethink_logo.svg"
+        name:           "Codethink"
+        url:            "https://www.codethink.co.uk/"
+    anycont:
+      - logo:           "images/InformaticsUni_transparent.gif"
+        name:           "University of Edinburgh School of Informatics"
+        url:            "http://www.ed.ac.uk/informatics"
+      - logo:           "images/xilinx_logo.png"
+        name:           "Xilinx"
+        url:            "http://www.xilinx.com"
+      - logo:           "images/mouser_logo.jpg"
+        name:           "Mouser"
+        url:            "http://mouser.com/"
 
   info:
     sections:
