@@ -132,13 +132,29 @@ event:
     - question:      "Where is the event?"
       answer:        >
         The event is being hosted at [Appleton Tower, The University of Edinburgh](https://www.google.co.uk/maps/place/Appleton+Tower,+The+University+of+Edinburgh/@55.9443771,-3.1891978,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c78385c7685d:0x6f9d3da4d39209ee!8m2!3d55.9443771!4d-3.1870091?dcr=0).
-    - question:      "What is Major League Hacking?"
+    - question:      "What hardware will be available to use?"
       answer:        >
-        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
+        You'll get access to a selection of standard components, microcontrollers, and microcomputers.
+        There sill be a specific list of parts posted up here soon (watch this space!). If there is
+        anything specific that you really want to use, you ware welcome to bring it along!
+    - question:      "How big are the teams?"
+      answer:        >
+        Teams are typically 3-5 people.
+    - question:      "Do you offer travel reimbursement?"
+      answer:        >
+        We do cannot reimburse you for your travel expenses.
     - question:      "Is there a code of conduct?"
       answer:        >
-        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+        We will be using the MLH code of conduct and will be enforcing it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+    - question:      "How does judging work?"
+      answer:        >
+        There will be 3 main winning teams that will be selected by a panel of judges.
+        The judges will make their decisions based on scores in a number of categories announced at the event.
+        There will also be additional prizes for winners of specific challenges at the event. These challenges will
+        involve meeting certain criteria specific to each one.
+    - question:      "Do I have to use hardware in my hack?"
+      answer:        >
+        It is expected that the final hack will employ use of hardware. The judge will take hardware usage into account when making their decisions.
 
   schedule:
     Saturday:
