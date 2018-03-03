@@ -49,6 +49,11 @@ event:
     region:             "eu"    # "na" or "eu"
     color:              "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
+  social:
+    - logo:             "images/fb_logo.png"
+      text:             "Facebook event"
+      link:             "https://www.facebook.com/events/328878124288949/"
+
   hero:
     my_mlh:
       text: "Register with MyMlh, too"
