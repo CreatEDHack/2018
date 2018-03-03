@@ -67,7 +67,8 @@ event:
 
   # Info Sections
   sponsors:
-    medium:
+    # tier1 is top, anycont is bottom (refer to sponsorship packages)
+    tier2:
       - logo:           "images/accenture_logo.png"
         name:           "Accenture"
         url:            "http://www.accenture.com"
@@ -80,16 +81,17 @@ event:
       - logo:           "images/queryclick_logo.svg"
         name:           "QueryClick"
         url:            "http://uk.queryclick.com/en/"
-    small:
+    tier3:
+      - logo:           "images/codethink_logo.svg"
+        name:           "Codethink"
+        url:            "https://www.codethink.co.uk/"
+    anycont:
       - logo:           "images/InformaticsUni_transparent.gif"
         name:           "University of Edinburgh School of Informatics"
         url:            "http://www.ed.ac.uk/informatics"
       - logo:           "images/xilinx_logo.png"
         name:           "Xilinx"
         url:            "http://www.xilinx.com"
-      - logo:           "images/codethink_logo.svg"
-        name:           "Codethink"
-        url:            "https://www.codethink.co.uk/"
 
   info:
     sections:
