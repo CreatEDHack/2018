@@ -378,3 +378,8 @@ section.about p {
     vertical-align: middle;
     text-transform: capitalize;
 }
+
+.social-icons img {
+  width: 3rem;
+  padding: 0.3rem;
+}

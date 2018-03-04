@@ -53,6 +53,9 @@ event:
     - logo:          "images/fb_logo.png"
       text:          "Facebook event"
       link:          "https://www.facebook.com/events/328878124288949/"
+    - logo:          "images/twitter_logo.png"
+      text:          "Twitter"
+      link:          "https://twitter.com/CreatEDHack"
 
   hero:
     my_mlh:
