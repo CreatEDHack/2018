@@ -352,6 +352,7 @@ section.about p {
 }
 
 .social-icons img {
-  width: 3rem;
+  width: 4rem;
   padding: 0.3rem;
+  margin-top: 10px;
 }
