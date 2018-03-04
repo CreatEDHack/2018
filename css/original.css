@@ -295,9 +295,17 @@ section.about p {
   width: 80px;
 }
 
+.hardwarehack .item hr {
+  border-top: 8px solid #0F2C34;
+  width: 130px;
+}
+
 .faq .question p,
-.hardwarehack .question p {
+.hardwarehack .question p,
+.special-image-desc {
+  font-family: 'Montserrat';
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.5em;
 }
 
@@ -383,4 +391,9 @@ section.about p {
   width: 4rem;
   padding: 0.3rem;
   margin-top: 10px;
+}
+
+.special-image {
+  width: 300px;
+  padding: 20px;
 }

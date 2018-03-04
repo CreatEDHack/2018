@@ -106,18 +106,18 @@ event:
 
   info:
     sections:
-      - image:       "images/image1.png"
-        title:       "LEARN."
+      - image:       "images/header1.png"
+        title:       "Hardware"
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image:       "images/image2.png"
-        title:       "BUILD."
+         We are the only the student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects. 
+      - image:       "images/header2.png"
+        title:       "Workshops"
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image:       "images/image3.png"
-        title:       "SHARE."
+         We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space! 
+      - image:       "images/header3.png"
+        title:       "Mentors"
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          We have a team of elite mentors available on site. They will be there to guide you all throught the event whether you are a begginer or a seasoned hacker!
 
   # Frequently asked questions.
   faq:
