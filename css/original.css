@@ -288,8 +288,7 @@ section.about p {
   font-size: 24px;
 }
 
-.faq .question hr,
-.hardwarehack .question hr {
+.faq .question hr {
   border-top: 8px solid #0F2C34;
   margin: 20px 0;
   width: 80px;

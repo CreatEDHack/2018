@@ -29,7 +29,8 @@ layout: default
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
           <h2>{{ item.question }}</h2>
-          <hr> {{ item.answer | markdownify }}
+          <hr>
+          <p>{{ item.answer | markdownify }}</p>
         </div>
         {% endfor %}
       </div>
