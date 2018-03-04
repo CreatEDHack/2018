@@ -3,17 +3,20 @@ layout: default
 ---
 {% include hero.html %}
 
-<section id="hardwarehack" class="hardwarehack">
+<section class="hardwarehack">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        <div class="question col-xs-12 col-sm-12">
-          <h2>What makes us special?</h2>
-          <hr>
-          <p>We are the only the student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects.</p>
-          <p>We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space! </p>
+    <h1 class="text-center">What makes CreatED special?</h1>
+    <div class="items row">
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img class="special-image" src="{{ section.image }}" />
+            <h1>{{ section.title }}</h1>
+            <hr>
+            <h2 class="special-image-desc">{{ section.description }}</h2>
+          </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -26,7 +29,8 @@ layout: default
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
           <h2>{{ item.question }}</h2>
-          <hr> {{ item.answer | markdownify }}
+          <hr>
+          <p>{{ item.answer | markdownify }}</p>
         </div>
         {% endfor %}
       </div>
