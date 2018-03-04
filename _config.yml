@@ -109,15 +109,15 @@ event:
       - image:       "images/header1.png"
         title:       "Hardware"
         description: >
-         We are the only the student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects. 
+         We are the only student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects.
       - image:       "images/header2.png"
         title:       "Workshops"
         description: >
-         We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space! 
+         We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space!
       - image:       "images/header3.png"
         title:       "Mentors"
         description: >
-          We have a team of elite mentors available on site. They will be there to guide you all throughout the event whether you are a begginer or a seasoned hacker!
+          We have a team of elite mentors available on site. They will be there to guide you all throughout the event whether you are a beginner or a seasoned hacker!
 
   # Frequently asked questions.
   faq:
@@ -140,7 +140,7 @@ event:
     - question:      "What hardware will be available to use?"
       answer:        >
         You'll get access to a selection of standard components, microcontrollers and sensors.
-        There sill be a specific list of parts posted up here soon (watch this space!). If there is
+        There will be a specific list of parts posted up here soon (watch this space!). If there is
         anything specific that you really want to use, you are welcome to bring it along!
     - question:      "How big are the teams?"
       answer:        >
