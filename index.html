@@ -3,6 +3,21 @@ layout: default
 ---
 {% include hero.html %}
 
+<section id="hardwarehack" class="hardwarehack">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <div class="question col-xs-12 col-sm-12">
+          <h2>What makes us special?</h2>
+          <hr>
+          <p>We are the only the student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects.</p>
+          <p>We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="faq" class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
@@ -19,21 +34,97 @@ layout: default
   </div>
 </section>
 
-
-<!-- <section id="venue" class="venue">
-  <h1 class="text-center">Venue Details</h1>
+<section id="schedule" class="schedule">
+  <h1 class="text-center">Schedule</h1>
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h2>Concourse (G.01), Appleton Tower, 11 Crichton Street, Edinburgh EH8 9LE</h2>
+    <div id="schedSaturday">
+      <div class="row">
+        <div class="col-sm-3">
+          <header>
+            <div>7</div>
+            <div>April</div>
+          </header>
+        </div>
+        <div class="col-sm-9">
+          <table class="table table-hover">
+            <tbody>
+              {% for event in site.event.schedule.Saturday %} {% assign previous = forloop.index0 | minus: 1 %} {% assign next = forloop.index0 | plus: 1 %} {% if site.event.schedule.Saturday[previous].start != event.start %}
+              <tr>
+                {% if event.track == "ws" %}
+                <th></th>
+                <td></td>
+                {% endif %}
+                <th>
+                  {{ event.start }}{% if event.end %}<br />|<br />{{ event.end}}{% endif %}
+                </th>
+                <td>
+                  {{ event.text }}
+                </td>
+                {% if event.track == "main" %} {% if event.start == site.event.schedule.Saturday[next].start %}
+                <th>
+                  {{ site.event.schedule.Saturday[next].start }}{% if site.event.schedule.Saturday[next].end %}<br />|<br />{{ site.event.schedule.Saturday[next].end }}{% endif %}
+                </th>
+                <td>{{ site.event.schedule.Saturday[next].text }}</td>
+                {% else %}
+                <th></th>
+                <td></td>
+                {% endif %} {% endif %}
+              </tr>
+              {% endif %} {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div id="schedSunday">
+      <div class="row">
+        <div class="col-sm-3">
+          <header>
+            <div>8</div>
+            <div>April</div>
+          </header>
+        </div>
+        <div class="col-sm-9">
+          <table class="table table-hover">
+            <tbody>
+              {% for event in site.event.schedule.Sunday %} {% assign previous = forloop.index0 | minus: 1 %} {% assign next = forloop.index0 | plus: 1 %} {% if site.event.schedule.Sunday[previous].start != event.start %}
+              <tr>
+                {% if event.track == "ws" %}
+                <th></th>
+                <td></td>
+                {% endif %}
+                <th>
+                  {{ event.start }}{% if event.end %}<br />|<br />{{ event.end}}{% endif %}
+                </th>
+                <td>
+                  {{ event.text }}
+                </td>
+                {% if event.track == "main" %} {% if event.start == site.event.schedule.Sunday[next].start %}
+                <th>
+                  {{ site.event.schedule.Sunday[next].start }}{% if site.event.schedule.Sunday[next].end %}<br />|<br />{{ site.event.schedule.Sunday[next].end }}{% endif %}
+                </th>
+                <td>{{ site.event.schedule.Sunday[next].text }}</td>
+                {% else %}
+                <th></th>
+                <td></td>
+                {% endif %} {% endif %}
+              </tr>
+              {% endif %} {% endfor %}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-    </div>
-  </div>
-</section> -->
+</section>
+
+
+<section id="venue" class="venue">
+  <h1 class="text-center">Venue Details</h1>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.288173401278!2d-3.1891977837099557!3d55.94437708060509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78385c7685d%3A0x6f9d3da4d39209ee!2sAppleton+Tower%2C+The+University+of+Edinburgh!5e0!3m2!1sen!2suk!4v1520004331756"
+    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
 
 
 <section id="sponsors" class="sponsors">
