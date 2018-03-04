@@ -350,3 +350,9 @@ section.about p {
 .tier2 {
     padding-bottom: 20px;
 }
+
+.social-icons img {
+  width: 4rem;
+  padding: 0.3rem;
+  margin-top: 10px;
+}
