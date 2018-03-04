@@ -227,7 +227,8 @@ section.about p {
  * Info Section
  */
 .info,
-.sponsors {
+.sponsors,
+.schedule {
   background-color: #fff;
   /* margin-top: 15px; */
   padding: 50px 0;
@@ -273,7 +274,8 @@ section.about p {
 .faq h1,
 .sponsors h1,
 .venue h1,
-.hardwarehack h1 {
+.hardwarehack h1,
+.schedule h1 {
   font-family: 'Montserrat';
   font-weight: 700;
   margin: 30px 0;
@@ -349,4 +351,30 @@ section.about p {
 
 .tier2 {
     padding-bottom: 20px;
+}
+
+.schedule .table {
+  border-left: #1f1f1f 0.8rem solid;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  font-family: Montserrat;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.schedule header div {
+    font-family: Montserrat;
+    font-size: 6rem;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: capitalize;
 }
