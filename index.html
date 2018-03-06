@@ -10,7 +10,7 @@ layout: default
       {% for section in site.event.info.sections %}
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
-            <img class="special-image" src="{{ section.image }}" />
+            <img class="special-image" src="{{ section.image }}" alt="{{ section.imagealt }}" />
             <h1>{{ section.title }}</h1>
             <hr>
             <h2 class="special-image-desc">{{ section.description }}</h2>
