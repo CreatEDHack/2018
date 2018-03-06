@@ -52,6 +52,7 @@ layout: default
         <div class="col-sm-9">
           <table class="table table-hover">
             <tbody>
+              <tr><th></th><th>Main track</th><th></th><th>Workshops</th></tr>
               {% for event in site.event.schedule.Saturday %} {% assign previous = forloop.index0 | minus: 1 %} {% assign next = forloop.index0 | plus: 1 %} {% if site.event.schedule.Saturday[previous].start != event.start %}
               <tr>
                 {% if event.track == "ws" %}
