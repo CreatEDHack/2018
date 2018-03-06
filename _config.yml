@@ -93,6 +93,9 @@ event:
       - logo:        "images/codethink_logo.svg"
         name:        "Codethink"
         url:         "https://www.codethink.co.uk/"
+      - logo:        "images/mokanix_logo_small.png"
+        name:        "mokanix"
+        url:         "https://www.mokanix.io"
     anycont:
       - logo:        "images/InformaticsUni_transparent.gif"
         name:        "University of Edinburgh School of Informatics"
