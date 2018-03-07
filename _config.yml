@@ -43,6 +43,7 @@ event:
   date:              "7th & 8th of April"
   location:          "Appleton Tower, The University of Edinburgh"
   logosrc:           "images/logo.png"
+  logoalt:           "CreatED Logo"
 
   trust_badge:
     year:            "2018"  # season year
@@ -110,14 +111,17 @@ event:
   info:
     sections:
       - image:       "images/header1.png"
+        imagealt:    "Circuitry on a breadboard"
         title:       "Hardware"
         description: >
          We are the only student-run hackathon in the UK with a focus on hardware! Hackers will be producing physical devices, not just software projects.
       - image:       "images/header2.png"
+        imagealt:    "Mentor assiting workshop attendees"
         title:       "Workshops"
         description: >
          We will also be running an exciting series of workshops in parallel to the main event. The list will be announced soon&trade; and you'll be able to sign up on the day. Watch this space!
       - image:       "images/header3.png"
+        imagealt:    "Two mentors discussing information on a computer"
         title:       "Mentors"
         description: >
           We have a team of elite mentors available on site. They will be there to guide you all throughout the event whether you are a beginner or a seasoned hacker!
