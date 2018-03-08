@@ -97,6 +97,9 @@ event:
       - logo:        "images/mokanix_logo_small.png"
         name:        "mokanix"
         url:         "https://www.mokanix.io"
+      - logo:        "images/fdm_logo.jpg"
+        name:        "FDM Group"
+        url:         "https://www.fdmgroup.com/"
     anycont:
       - logo:        "images/InformaticsUni_transparent.gif"
         name:        "University of Edinburgh School of Informatics"
