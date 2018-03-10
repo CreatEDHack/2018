@@ -393,3 +393,9 @@ section.about p {
   width: 300px;
   padding: 20px;
 }
+
+.sponsors .anycont img {
+  float:none;
+  text-align: center;
+  padding: 3vw;
+}
