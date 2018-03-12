@@ -110,6 +110,9 @@ event:
       - logo:        "images/mouser_logo.jpg"
         name:        "Mouser"
         url:         "http://mouser.com/"
+      - logo:        "images/jetbrains_logo.png"
+        name:        "JetBrains"
+        url:         "https://www.jetbrains.com/"
 
   info:
     sections:
