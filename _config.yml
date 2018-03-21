@@ -113,6 +113,12 @@ event:
       - logo:        "images/jetbrains_logo.png"
         name:        "JetBrains"
         url:         "https://www.jetbrains.com/"
+      - logo:        "images/unity_logo.png"
+        name:        "Unity"
+        url:         "http://unity3d.com/"
+      - logo:        "images/lime_logo.png"
+        name:        "Lime Microsystems"
+        url:         "http://www.limemicro.com/"
 
   info:
     sections:
