@@ -122,6 +122,9 @@ event:
       - logo:        "images/lime_logo.png"
         name:        "Lime Microsystems"
         url:         "http://www.limemicro.com/"
+      - logo:        "images/twilio_logo.svg"
+        name:        "Twilio"
+        url:         "https://www.twilio.com"
 
   info:
     sections:
