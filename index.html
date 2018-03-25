@@ -164,7 +164,7 @@ layout: default
       {% for sponsor in site.event.sponsors.tier3 %}
       <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 text-center">
         <div class="item">
-          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+          <a href="{{ sponsor.url }}"><img {% if sponsor.customstyle %}style="{{ sponsor.customstyle}}" {% endif %}src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
         </div>
       </div>
       {% endfor %}

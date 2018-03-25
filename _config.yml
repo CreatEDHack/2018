@@ -103,6 +103,7 @@ event:
       - logo:        "images/compsoc_logo.png"
         name:        "Compsoc"
         url:         "https://comp-soc.com/"
+        customstyle: "transform: translateY(120%);"
     anycont:
       - logo:        "images/InformaticsUni_transparent.gif"
         name:        "University of Edinburgh School of Informatics"
