@@ -167,10 +167,10 @@ event:
   schedule:
     Saturday:
       - text:        "Start of registration"
-        start:       "09:00"
+        start:       "10:00"
         track:       "main"
       - text:        "Opening ceremony"
-        start:       "10:30"
+        start:       "11.00"
         end:         "12:00"
         track:       "main"
       - text:        "Start hacking"
