@@ -179,6 +179,9 @@ event:
     - question:      "Do I have to use hardware in my hack?"
       answer:        >
         Yes, although don't be scared if you've never used hardware before! We'll have a team of elite mentors on site that will be helping you every step of the way. There will also be introductory workshops for beginners. Your hack will probably also include a software component.
+    - question:      "Do I have to come with teammates?"
+      answer:        >
+        There is a team-forming session at the start of the first day so feel free to come along on your own or with friends.
 
   schedule:
     Saturday:
