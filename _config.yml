@@ -100,6 +100,10 @@ event:
       - logo:        "images/fdm_logo.png"
         name:        "FDM Group"
         url:         "https://www.fdmgroup.com/"
+      - logo:        "images/compsoc_logo.png"
+        name:        "Compsoc"
+        url:         "https://comp-soc.com/"
+        customstyle: "transform: translateY(120%);"
     anycont:
       - logo:        "images/InformaticsUni_transparent.gif"
         name:        "University of Edinburgh School of Informatics"
@@ -119,6 +123,9 @@ event:
       - logo:        "images/lime_logo.png"
         name:        "Lime Microsystems"
         url:         "http://www.limemicro.com/"
+      - logo:        "images/twilio_logo.svg"
+        name:        "Twilio"
+        url:         "https://www.twilio.com"
 
   info:
     sections:
