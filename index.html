@@ -163,9 +163,9 @@ layout: default
     <div class="items row">
       {% for sponsor in site.event.sponsors.tier3 %}
       {%- assign i = forloop.index0 | modulo: 2 -%}
-      <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-{% if i == 0 %}1{% else %}2{% endif %} text-center">
+      <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-{% if i == 0 or i == 2 or i == 4 %}1{% else %}2{% endif %} text-center">
         <div class="item">
-          <a href="{{ sponsor.url }}"><img {% if sponsor.customstyle and forloop.last == false %}style="{{ sponsor.customstyle}}" {% endif %}src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
+          <a href="{{ sponsor.url }}"><img {% if sponsor.customstyle %}style="{{ sponsor.customstyle}}" {% endif %}src="{{ sponsor.logo }}"  alt="{{ sponsor.name }}"/></a>
         </div>
       </div>
       {% endfor %}
