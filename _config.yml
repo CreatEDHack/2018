@@ -90,6 +90,9 @@ event:
       - logo:        "images/queryclick_logo.svg"
         name:        "QueryClick"
         url:         "http://uk.queryclick.com/en/"
+      - logo:        "images/ecr_logo.jpg"
+        name:        "ECR"
+        url:         "https://www.edinburgh-robotics.org/"
     tier3:
       - logo:        "images/codethink_logo.svg"
         name:        "Codethink"
