@@ -217,7 +217,7 @@ event:
         start:       "18:00"
         end:         "19:00"
         track:       "main"
-      - text:        "Introdcution to IoT workshop"
+      - text:        "Introduction to IoT workshop"
         start:       "19.00"
         end:         "20.00"
         track:       "ws"
