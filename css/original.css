@@ -261,7 +261,7 @@ section.about p {
 /*
  * FAQ Section
  */
-.faq, .hardwarehack, .workshops{
+.faq, .hardwarehack, .workshops, .challenges{
   background-color: #fff;
   /* margin-top: 15px; */
   padding: 50px 0;
@@ -273,7 +273,8 @@ section.about p {
 .venue h1,
 .hardwarehack h1,
 .schedule h1,
-.workshops h1 {
+.workshops h1 ,
+.challenges h1 {
   font-family: 'Montserrat';
   font-weight: 700;
   margin: 30px 0;
@@ -281,7 +282,8 @@ section.about p {
 
 .faq .question h2,
 .hardwarehack .question h2,
-.workshops h2 {
+.workshops h2, 
+.challenges h2 {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 24px;
@@ -301,6 +303,7 @@ section.about p {
 .faq .question p,
 .hardwarehack .question p,
 .workshops p,
+.challenges p,
 .special-image-desc {
   font-family: 'Montserrat';
   font-size: 18px;

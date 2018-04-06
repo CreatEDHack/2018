@@ -105,6 +105,21 @@ event:
         level: "Basic knowledge of Python recommended."
         description: "During this workshop we will dive into the world of IoT technologies. We will explain how the IoT systems work and take you through creating you own simple IoT application"
 
+  challenges:
+      - name: "Best IoT hack (Nordic Semiconductor)"
+        description: "This category will present a prize to the team that comes up with the best hack that classifies as an Internet of Things hack. To do this, teams will need to produce a connected, low power device"
+      - name: "Best use of machine learning (Accenture)"
+        description: "This category will reward the best solution that uses machine learning. A hack that uses anything from clustering algorithms to neural networks to enhance their hardware solution is eligible for this challenge."
+      - name: "Beginner’s prize (FDM Group)"
+        description: "This prize will be given to the beginners team that have tried the hardest whilst at the hackathon and who have learnt the most. It’s all about how much the team has thrown themselves into the challenge and how much you have benefited from this learning experience."
+      - name: "Mokanix challenge"
+        description: "A hack using the Mokanix toolkit, which allows you to build applications using mobile networks."
+      - name: "MiRo challenge"
+        description: "Consequential Robotics will be running a thread of workshops on their robot MiRo. This prize will go to the best and most innovative use of MiRo and it’s capabilities."
+      - name: "Best game (CompSoc)"
+        description: "A challenge sponsored by a fellow society at the university, Compsoc. Every hack which combines a game with hardware functionality will be eligible for this prize."
+
+
   # Info Sections
   sponsors:
     # tier1 is top, anycont is bottom (refer to sponsorship packages)
