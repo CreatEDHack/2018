@@ -38,6 +38,7 @@ layout: default
   </div>
 </section>
 
+
 <section id="schedule" class="schedule">
   <h1 class="text-center">Schedule</h1>
   <div class="container">
@@ -124,6 +125,26 @@ layout: default
   </div>
 </section>
 
+<section id="workshops" class="workshops">
+  <div class="container">
+    <h1 class="text-center">Workshops</h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          {% for workshop in site.event.workshops %}
+          <div class="col-xs-12">
+            <div class="item">
+              <h2 class="text-center">{{ workshop.name }}</h2>
+              <hr>
+              <p class="workshop-time"><b>Time:</b> {{ workshop.time }}</p>
+              <p class="workshop-level"><b>Level:</b> {{ workshop.level }}</p>
+              <p class="workshop-description"><b>Description: </b>{{ workshop.description }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
 
 <section id="venue" class="venue">
   <h1 class="text-center">Venue Details</h1>

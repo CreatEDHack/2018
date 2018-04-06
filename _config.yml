@@ -74,6 +74,37 @@ event:
       It'll bring together students for a fun weekend of invention, hacking, and learning.{::nomarkdown}<br />{:/}
       Brought to you by [The University of Edinburgh Embedded and Robotics Society](http://ears-edi.com/).
 
+  workshops:
+      - name: "Introduction to Electronics"
+        time: "12.00 - 13.00"
+        level: "No prior experience required."
+        description: "Do you want to learn the basics of building circuits? We will take you over the fundamentals of electronics concepts, explain how components such as resistors or transistors work and finally get you to build some circuits of your own!"
+      - name: "MiRo"
+        time: "12.00 - 13.00"
+        level: "Knowledge of programming and command line"
+        description: "Are you interested in working on a MiRo project during the hackathon? Come to this workshop which will give an introduction to MiRo, all of his sensors/actuators and explain the basics of how it works. You will learn how to use the simulator to introduce the basics of programming MiRos with ROS, and finally show how to port the programmed behaviours over to the real robot"
+      - name: "Introduction to micro:bit"
+        time: "14.00 - 15.00"
+        level: "Entry level, no prior experience required. If you have never programmed before it would be very beneficial for you to come."
+        description: "A workshop aimed at people with no previous programming experience. We will take you from complete basics to explain the fundamental concepts of programming and then show you how to apply them to hardware by making a simple game on a Microbit"
+      - name: "GitHub workshop"
+        time: "15.00 - 16.00"
+        level: "Entry level, no prior experience required."
+        description: "During this workshop delivered to you by GitHub you will learn the basics of version control. We will take you from the basics of Git all the way through to showcasing your projects on GitHub."
+      - name: "Line Follower"
+        time: "15.30 - 17.00"
+        level: "Basic knowledge of electronics, Arduino and programming programming"
+        description: "Build your own line follower robot using an Arduino. We will take you through the basics of motor control and sensor readings so that you can build your own line following robot and watch it go!"
+
+      - name: "Introduction to FPGA"
+        time: "17.00 - 18.00"
+        level: "Knowledge of Python strongly recommended"
+        description: "A beginner's intro to the world of FPGA programming! Come along to learn how to set up a PYNQ FPGA board and test out several simple projects in Jupyter Notebook"
+      - name: "Introduction to IoT"
+        time: "19.00 - 20.00"
+        level: "Basic knowledge of Python recommended."
+        description: "During this workshop we will dive into the world of IoT technologies. We will explain how the IoT systems work and take you through creating you own simple IoT application"
+
   # Info Sections
   sponsors:
     # tier1 is top, anycont is bottom (refer to sponsorship packages)
